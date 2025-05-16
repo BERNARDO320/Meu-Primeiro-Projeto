@@ -1,0 +1,199 @@
+body {
+    font-family: sans-serif; /* Alteração: Alterando a fonte para sans-serif */
+    margin: 0; /* Alteração: Removendo margens padrão */
+    padding: 0; /* Alteração: Removendo padding padrão */
+    background-color: black; /* Alteração: Alterando a cor de fundo para preto */
+}
+
+h2 {
+    font-size: 2rem; /* Alteração: Reduzindo o tamanho da fonte em telas menores */
+    color: #33a8db; /* Alteração: Alterando a cor do texto para azul */
+    font-weight: bold; /* Alteração: Alterando o peso da fonte para negrito */
+    letter-spacing: 4px; /* Alteração: Adicionando espaçamento entre letras */
+    margin-bottom: 24px; /* Alteração: Adicionando margem inferior */
+}
+
+p {
+    color: white; /* Alteração: Alterando a cor do texto para branco */
+}
+
+section {
+    margin: 100px auto; 
+    /* Alteração: Centralizando a seção e permitindo margens automáticas */
+    width: 90%; /* Alteração: Tornando a seção responsiva em largura */
+    max-width: 800px; /* Alteração: Limitando a largura máxima */
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),
+    url('../assests/img/banner.png'); /* Alteração: Alterando a imagem de fundo */
+    background-size: cover; /* Alteração: Cobrir toda a área */
+    background-repeat: no-repeat; /* Alteração: Não repetir a imagem */
+    height: auto; /* Alteração: Altura automática para se adaptar ao conteúdo */
+    min-height: 400px; /* Alteração: Altura mínima */
+    padding-top: 60px;
+     border-bottom: 1px solid #33a8db80;  
+    display: flex; /* Alteração: Usando Flexbox para o conteúdo */
+    align-items: center; /* Alteração: Centralizando verticalmente */
+}
+
+.banner .banner-content {
+    color: white;
+    width: 90%; /* Alteração: Tornando o conteúdo responsivo em largura */
+    max-width: 600px; /* Alteração: Limitando a largura máxima */
+    margin: auto;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 2rem; /* Alteração: Reduzindo o tamanho da fonte em telas menores */
+    font-weight: 900;
+    text-transform: uppercase; /* Alteração: Transformando o texto para maiúsculas */
+    color: transparent; /* Alteração: Tornando o texto transparente */
+    background: -webkit-linear-gradient(#33a8db, #1472b7); /* Alteração: Gradiente de fundo */
+    -webkit-background-clip: text; /* Alteração: Recortando o fundo para o texto */
+    background-clip: text; /* Alteração: Recortando o fundo para o texto */
+}
+
+.banner p {
+    font-size: 1rem; /* Alteração: Reduzindo o tamanho da fonte em telas menores */
+    margin: 16px 0 24px;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: auto; /* Alteração: Altura automática */
+    width: auto; /* Alteração: Largura automática */
+    min-width: 150px; /* Alteração: Largura mínima */
+    min-height: 150px; /* Alteração: Altura mínima */
+    margin: auto;
+    border-radius: 50%;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.banner .logo img {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.banner .banner-content button {
+    color: #31A8DD;
+    font-size: 0.9rem; /* Alteração: Reduzindo o tamanho da fonte em telas menores */
+    font-weight: bold;
+    padding: 12px 24px; /* Alteração: Reduzindo o padding em telas menores */
+    text-transform: uppercase; /* Alteração: Transformando o texto para maiúsculas */
+    letter-spacing: 4px;
+    background-color: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+    border-radius: 30px;
+}
+
+#course-content {
+    width: 90%; /* Alteração: Tornando a seção responsiva em largura */
+    max-width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list {
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    color: white;
+    width: 90%; /* Alteração: Tornando os módulos responsivos em largura */
+    max-width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+#course-content .modules-list .module span {
+    color: #33A8DB;
+}
+
+#transform-world {
+    height: auto; /* Alteração: Altura automática para se adaptar ao conteúdo */
+    min-height: 400px; /* Alteração: Altura mínima */
+    background-size: cover;
+    background-image: url("../assests/img/woman-code.png");
+    background-attachment: fixed;
+    padding: 50px 20px; /* Alteração: Reduzindo o padding em telas menores */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#transform-world p {
+    font-weight: 900;
+    font-size: 1.5rem; /* Alteração: Reduzindo o tamanho da fonte em telas menores */
+    text-transform: lowercase;
+    max-width: 90%; /* Alteração: Tornando o texto responsivo em largura */
+    text-shadow: 2px 1px #33A8DB; /* Alteração: Reduzindo o tamanho da sombra em telas menores */
+}
+
+#professional-challenges {
+    text-align: center;
+    width: 90%; /* Alteração: Tornando a seção responsiva em largura */
+    max-width: 800px;
+}
+
+#professional-challenges img {
+    margin: 32px 0;
+    max-width: 100%; /* Alteração: Imagem responsiva */
+    height: auto;
+}
+
+footer {
+    padding: 30px 0; /* Alteração: Reduzindo o padding em telas menores */
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+footer .dio-logo {
+    width: 80%; /* Alteração: Tornando o logo responsivo em largura */
+    max-width: 300px;
+    height: auto;
+}
+
+footer a {
+    color: #33A8DB;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .banner h1 {
+        font-size: 1.8rem;
+    }
+
+    #transform-world p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    #transform-world p {
+        font-size: 1rem;
+    }
+}
